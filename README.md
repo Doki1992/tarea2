@@ -27,5 +27,7 @@
 5. cd tarea2/esb
 6. npm run start
 7. cd ..  
-8. Ir al navegador y usar cualquira de los siguientes enlaces 
-	* 	
+8. Ir al navegador y usar cualquiera de los siguientes enlaces 
+	* localhost:3002/ver
+	* localhost:3002/notificar
+	* localhost:3002/ubicacion/f, localhost:3002/ubicacion/a
