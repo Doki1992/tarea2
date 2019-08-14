@@ -31,7 +31,7 @@ exports.obtener_ubicacion = function(req, res){
 		if(error){
 			console.log(error);
 		}
-		else{
+		else {
 			res.json(JSON.parse(body));
 		}
 	});

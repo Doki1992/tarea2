@@ -4,9 +4,9 @@
 *@port, puerto en donde se servira el servicio
 ***/
 
-var express = require('express'),
-  app = express(),
-  port = process.env.PORT || 3000,
+var express  = require('express'),
+  app        = express(),
+  port       = process.env.PORT || 3000,
   bodyParser = require('body-parser');
 
   app.use(bodyParser.urlencoded({ extended: true }));
